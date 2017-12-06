@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="description" content="a fairly bad website with not so great videos">
+    <meta name="keywords" content="website, videos, audio, code, tutorials">
+   
+    <title>great code tutorial videos</title>
     <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -15,6 +18,25 @@
     </header>
 
     <body>
+        <span>
+            <div>
+                <p> This is a great website to learn about the best code stuffs</p>
+            </div>
+            <p>you can even learn about...</p>
+            <ul>
+                <li>bears!</li>
+                <li>Michael's Past Projects</li>
+                <li>React Native</li>
+                <li>How to enter a video in HTML5</li>
+            </ul>
+        </span>
+
+        <br/>
+        <br/>
+        <audio controls>
+                <source src="./videos/horse.ogg" type="audio/ogg">
+                    
+        </audio>
         <div class="videos">
             <video controls>
                 <source src="./videos/bear.mp4" type="video/mp4"> Your browser does not support the video tag.
@@ -29,6 +51,8 @@
             <video controls>
                 <source src="./videos/video-howto.mov" type="video/mp4">
             </video>
+            
+          
         </div>
 
         <div id='vidLauncher'>
@@ -43,6 +67,8 @@
     <footer>
         
         <button onclick="randomVideo(document.getElementsByTagName('source').length-=1)" >Random Video</button>
+        <input type="text" name="sayIt"/> 
+        <button alert('input.sayIt') ></button>
     </footer>
     <script src="./index.js"></script>
 </body>
