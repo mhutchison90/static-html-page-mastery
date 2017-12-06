@@ -58,7 +58,11 @@ video {
     border-radius: 5px;
     background-image: url('http://www.roadkilltshirts.com/Assets/ProductImages/PS_0167W_THINKING_PATIENT.jpg');
     background-size: cover;
-    display: none;
+    /* display: none; */
+}
+#vidvidLauncher > button{
+    position: relative;
+float: left;
 }
 
 #vidLauncher video {
