@@ -1,13 +1,18 @@
 header{
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
     height: 60px;
     width: 100%;
     background-color: #1E8FFE;
     text-align: center;
     font-weight: bold;
     font-size: 23px;
+    background: linear-gradient(#1E8FFE 60%, rgb(110, 184, 254));
+    
 }
 
 body{
+    text-shadow: 1px 1px 1px rgb(191, 188, 188);
+    
     height: calc(2000px - 140px );
     /* background-color: yellow; */
     position: relative;
@@ -53,6 +58,7 @@ video {
     padding: 300px;
     margin: 20px;
     border: solid black 3px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #vidLauncher {
