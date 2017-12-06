@@ -118,6 +118,13 @@ a{
     color: black;
     text-decoration: none;
 }
+footer > img{
+    height: 300px;
+    margin-top:30px;
+}
+img::before{
+    content:"Made By Michael Hutchison"
+}
 
 /* ↓↓↓ //##// CSS RESET  //##// ↓↓↓ */
 html, body, div, span, applet, object, iframe,
