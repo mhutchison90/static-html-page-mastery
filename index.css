@@ -8,22 +8,33 @@ header{
 }
 
 body{
-    height: calc(100% - 140px );
+    height: calc(2000px - 140px );
     /* background-color: yellow; */
+    position: relative;
 
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
     height: 60px;
     width: 100%;
     background-color: #061E34;
     position: absolute;
-    bottom: 0px;
+    bottom: 8px;
+    font-size: 18px;
 }
+/* footer > button{
+    order: -1;
+    
+} */
 
 footer > button {
-    position: absolute;
-    bottom: 40%;
+    position: relative;
     left: 50%;
 }
 
@@ -57,6 +68,13 @@ video {
     justify-content: center;
     /* border: 3px solid white; */
     border-radius: 5px;
+    background-image: url('http://www.roadkilltshirts.com/Assets/ProductImages/PS_0167W_THINKING_PATIENT.jpg');
+    background-size: cover;
+    display: none;
+}
+#vidvidLauncher > button{
+    position: relative;
+float: left;
 }
 
 #vidLauncher video {
@@ -71,9 +89,42 @@ video {
     border: 1px solid fuchsia;
 } */
 
+div > p {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(34, 31, 31);
+    text-align: center; 
+}
+div + p{
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(34, 31, 31);
+    text-align: center;
+}
+p + ul{
+    text-align: center;
+    font-size: 20px;
+}
 
-
-
+.jump2{
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+footer > img{
+    height: 300px;
+    margin-top:30px;
+}
+img::before{
+    content:"Made By Michael Hutchison"
+}
 
 /* ↓↓↓ //##// CSS RESET  //##// ↓↓↓ */
 html, body, div, span, applet, object, iframe,
