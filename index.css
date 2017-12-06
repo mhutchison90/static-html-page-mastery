@@ -43,9 +43,32 @@ video {
     border: solid black 3px; 
 
 }
+#vidLauncher {
+    display: none;
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    background: rgb(34, 44, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid white; */
+    border-radius: 5px;
+}
 
+#vidLauncher video {
+    border: 2px solid rgb(145, 145, 145);
+    width: 80%;
+    /* height: 80%; */
+    margin-left: 10%;
+    margin-top: 8%;
+}
 
-
+/* #randomVidVideo {
+    border: 1px solid fuchsia;
+} */
 
 
 
