@@ -31,10 +31,18 @@
             </video>
         </div>
 
+        <div id='vidLauncher'>
+            <video id="video" width='320' height='240'>
+                <source id="source" src= "randomVideo(document.getElementsByTagName('source').length-=1)"type="video/mp4" >
+            </video>
+            
+        </div>
+
     </body>
     <footer>
-        <button>Random Video</button>
+        
+        <button onclick="randomVideo(document.getElementsByTagName('source').length-=1)" >Random Video</button>
     </footer>
+    <script src="./index.js"></script>
 </body>
-
 </html>
